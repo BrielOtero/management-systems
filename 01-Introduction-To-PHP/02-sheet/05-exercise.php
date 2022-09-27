@@ -14,19 +14,24 @@
 			'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto',
 			'septiembre', 'octubre', 'noviemnbre', 'diciembre'
 		);
+		$newMeses = array();
 
 		for ($i = 0; $i < count($meses); $i++) {
 
-			$valueString = $meses[$i];
-			if ($valueString[0] = "m") {
-				$newMeses[$i] = $valueString;
+			if ($meses[$i][0] == "m") {
+				array_push($newMeses, $meses[$i]);
 			}
 		}
+		print_r($newMeses);
 	}
 	?>
 </head>
 
 <body>
+
+	<?php
+	createArray();
+	?>
 
 </body>
 

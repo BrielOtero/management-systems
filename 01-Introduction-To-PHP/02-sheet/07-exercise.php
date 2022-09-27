@@ -7,27 +7,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<?php
-
-	function checkPass($pass)
+	function animals()
 	{
-		if (strlen($pass) >= 8 && strlen($pass) <= 12) {
-			if (!is_numeric($pass[0])) {
-				return true;
-			}
-		}
-		return false;
-	}
 
+		$animals[0] = array("Perro", "Leon", "Cocodrilo");
+		$animals[1] = array("Gato", "Pantera", "Caiman");
+
+		echo ($animals[1][1]);
+	}
 	?>
 </head>
 
 <body>
+
 	<?php
-	echo checkPass("0aaaaaaa");
-	echo checkPass("0aaaaaaaaaaa");
-	echo checkPass("0aaaaaa");
-	echo checkPass("aaaaaaaa");
+	animals();
 	?>
+
+
+
 </body>
 
 </html>
