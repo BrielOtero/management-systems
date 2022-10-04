@@ -13,17 +13,20 @@ if(isset($_POST["cantidad"]) && !empty($_POST["cantidad"])){
 }else{
 	$correct =false;
 }
+
 if(isset($_POST["descuento"]) && !empty($_POST["descuento"])){
 	$descuento= intval($_POST["descuento"]);
 }else{
 	$correct =false;
 }
+
 if(isset($_POST["iva"]) && !empty($_POST["iva"])){
 	$iva= intval($_POST["iva"]);
 }else{
 	$correct =false;
 }
-if(isset($_POST["envio"]) && !empty($_POST["envio"])){
+
+if(isset($_POST["envio"])){
 	$envio= intval($_POST["envio"]);
 }else{
 	$correct =false;
