@@ -16,6 +16,9 @@ $users = mysqli_query($conexion,"SELECT * FROM usuarios");
 
 while($fila =mysqli_fetch_array($users)){
 	print $fila["id"]."   ".$fila["Nombre"]."   ".$fila["Apellidos"]."   ".$fila["Correo"]."<br>";
+	print "<a href=\"update.php?id={$fila['id']}\">Update</a><br>";
+	print "<a href=\"delete.php?id={$fila['id']}\">Delete</a><br>";
+	print "<br><br><hr>";
 }
 
 mysqli_close($conexion);
