@@ -1,18 +1,18 @@
-# [Soft UI Dashboard](http://demos.creative-tim.com/soft-ui-dashboard/pages/dashboard.html?ref=readme-sud) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/soft-ui-dashboard&text=Check%20Soft%20UI%20Dashboard%20made%20by%20@CreativeTim%20#webdesign%20#dashboard%20#softdesign%20#html%20https://www.creative-tim.com/product/soft-ui-dashboard) [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.gg/FhCJCaHdQa)
+# [Gabriel Bank Dashboard](http://demos.creative-tim.com/soft-ui-dashboard/pages/dashboard.html?ref=readme-sud) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/soft-ui-dashboard&text=Check%20Soft%20UI%20Dashboard%20made%20by%20@CreativeTim%20#webdesign%20#dashboard%20#softdesign%20#html%20https://www.creative-tim.com/product/soft-ui-dashboard) [![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.gg/FhCJCaHdQa)
 
 ![version](https://img.shields.io/badge/version-1.0.6-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/soft-ui-dashboard.svg)](https://github.com/creativetimofficial/soft-ui-dashboard/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/soft-ui-dashboard.svg)](https://github.com/creativetimofficial/soft-ui-dashboard/issues?q=is%3Aissue+is%3Aclosed)
 
 ![Image](https://s3.amazonaws.com/creativetim_bucket/products/450/original/opt_sd_free_thumbnail.jpg?1617715816)
 
-Most complex and innovative Dashboard Made by [Creative Tim](https://creative-tim.com/). Check our latest Free Bootstrap 5 Dashboard.
+Most complex and innovative Dashboard Made by [Gabriel Otero](https://creative-tim.com/). Check our latest Free Bootstrap 5 Dashboard.
 
-Designed for those who like bold elements and beautiful websites. Made of hundred of elements, designed blocks and fully coded pages, Soft UI Dashboard is ready to help you create stunning websites and webapps.
+Designed for those who like bold elements and beautiful websites. Made of hundred of elements, designed blocks and fully coded pages, Gabriel Bank Dashboard is ready to help you create stunning websites and webapps.
 
-We created many examples for pages like Sign In, Profile and so on. Just choose between a Basic Design, an illustration or a cover and you are good to go!
+We created many examples for pages like Modify Users, Profile and so on. Just choose between a Basic Design, an illustration or a cover and you are good to go!
 
 **Fully Coded Elements**
 
-Soft UI Dashboard is built with over 70 frontend individual elements, like buttons, inputs, navbars, navtabs, cards or alerts, giving you the freedom of choosing and combining. All components can take variations in colour, that you can easily modify using SASS files and classes.
+Gabriel Bank Dashboard is built with over 70 frontend individual elements, like buttons, inputs, navbars, navtabs, cards or alerts, giving you the freedom of choosing and combining. All components can take variations in colour, that you can easily modify using SASS files and classes.
 
 You will save a lot of time going from prototyping to full-functional code, because all elements are implemented.
 This Free Bootstrap 5 Dashboard is coming with prebuilt design blocks, so the development process is seamless,
@@ -65,12 +65,12 @@ Let us know your thoughts below. And good luck with development!
 
 | HTML |
 | --- |
-| [![Soft UI Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/450/thumb/opt_sd_free_thumbnail.jpg?1617715816)](http://demos.creative-tim.com/soft-ui-dashboard/pages/dashboard.html?ref=readme-sud)
+| [![Gabriel Bank Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/450/thumb/opt_sd_free_thumbnail.jpg?1617715816)](http://demos.creative-tim.com/soft-ui-dashboard/pages/dashboard.html?ref=readme-sud)
 
 ## Demo
 
-- [Profile page](http://demos.creative-tim.com/soft-ui-dashboard/pages/profile.html?ref=readme-sud)
-- [Sign in page](http://demos.creative-tim.com/soft-ui-dashboard/pages/sign-in.html?ref=readme-sud)
+- [Profile page](http://demos.creative-tim.com/soft-ui-dashboard/pages/users.php?ref=readme-sud)
+- [Modify Users page](http://demos.creative-tim.com/soft-ui-dashboard/pages/modify.php?ref=readme-sud)
 - [Sign up page](https://demos.creative-tim.com/soft-ui-dashboard/pages/sign-up.html?ref=readme-sud)
 
 [View More](https://demos.creative-tim.com/soft-ui-dashboard/pages/dashboard.html?ref=readme-sud).
@@ -79,7 +79,7 @@ Let us know your thoughts below. And good luck with development!
 
 Quick start options:
 
-- Download from [Creative Tim](https://www.creative-tim.com/product/soft-ui-dashboard?ref=readme-sud).
+- Download from [Gabriel Otero](https://www.creative-tim.com/product/soft-ui-dashboard?ref=readme-sud).
 
 ## Terminal Commands
 
@@ -87,7 +87,7 @@ Quick start options:
 2. Navigate to the root / directory and run npm install to install our local dependencies.
 
 ## Documentation
-The documentation for the Soft UI Dashboard is hosted at our [website](https://www.creative-tim.com/learning-lab/bootstrap/overview/soft-ui-dashboard?ref=readme-sud).
+The documentation for the Gabriel Bank Dashboard is hosted at our [website](https://www.creative-tim.com/learning-lab/bootstrap/overview/soft-ui-dashboard?ref=readme-sud).
 
 ### What's included
 
@@ -131,9 +131,9 @@ At present, we officially aim to support the last two versions of the following 
 - Issues: [Github Issues Page](https://github.com/creativetimofficial/soft-ui-dashboard/issues)
 
 ## Reporting Issues
-We use GitHub Issues as the official bug tracker for the Soft UI Dashboard. Here are some advices for our users that want to report an issue:
+We use GitHub Issues as the official bug tracker for the Gabriel Bank Dashboard. Here are some advices for our users that want to report an issue:
 
-1. Make sure that you are using the latest version of the Soft UI Dashboard. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/product/soft-ui-dashboard?ref=readme-sud).
+1. Make sure that you are using the latest version of the Gabriel Bank Dashboard. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/product/soft-ui-dashboard?ref=readme-sud).
 2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
 3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
@@ -143,16 +143,16 @@ If you have questions or need help integrating the product please [contact us](h
 
 ## Licensing
 
-- Copyright 2022 [Creative Tim](https://www.creative-tim.com?ref=readme-sud)
-- Creative Tim [license](https://www.creative-tim.com/license?ref=readme-sud)
+- Copyright 2022 [Gabriel Otero](https://www.creative-tim.com?ref=readme-sud)
+- Gabriel Otero [license](https://www.creative-tim.com/license?ref=readme-sud)
 
 ## Useful Links
 
-- [More products](https://www.creative-tim.com/templates?ref=readme-sud) from Creative Tim
+- [More products](https://www.creative-tim.com/templates?ref=readme-sud) from Gabriel Otero
 
 - [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
 
-- [Freebies](https://www.creative-tim.com/bootstrap-themes/free?ref=readme-sud) from Creative Tim
+- [Freebies](https://www.creative-tim.com/bootstrap-themes/free?ref=readme-sud) from Gabriel Otero
 
 - [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=readme-sud) (earn money)
 

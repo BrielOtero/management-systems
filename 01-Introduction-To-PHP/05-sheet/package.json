@@ -17,10 +17,10 @@
     "url": "git+https://github.com/creativetimofficial/soft-ui-dashboard.git"
   },
   "keywords": [
-    "soft ui dashboard",
+    "Gabriel Bank Dashboard",
     "bootstrap 5",
     "dashboard",
-    "creative tim",
+    "Gabriel Otero",
     "html dashboard",
     "html css dashboard",
     "web dashboard",
@@ -31,7 +31,7 @@
     "frontend",
     "responsive bootstrap dashboard"
   ],
-  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
+  "author": "Gabriel Otero <hello@creative-tim.com> (https://www.creative-tim.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/creativetimofficial/soft-ui-dashboard/issues"
