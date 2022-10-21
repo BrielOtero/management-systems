@@ -329,7 +329,11 @@
 											print "<span class=\"text-secondary text-xs font-weight-bold\">" . $fila["account"] . "</span>";
 											print "</td>";
 											print "<td>";
-											print "<span class=\"text-secondary text-xs font-weight-bold\">" . $fila["money"] . "</span>";
+											if((int)$fila["money"]<0){
+												print "<span class=\"  text-xs font-weight-bold\" style=\"color:red;\">" . $fila["money"] . "</span>";
+											}else{
+												print "<span class=\" text-xs font-weight-bold\" style=\"color:green;\">" . $fila["money"] . "</span>";
+											}
 											print "</td>";
 											print "<td>";
 											print "<a href=\"../database/delete.php?account={$fila["account"]}\" class=\" font-weight-bold text-xs\" style=\"color:red;\">REMOVE</a>";

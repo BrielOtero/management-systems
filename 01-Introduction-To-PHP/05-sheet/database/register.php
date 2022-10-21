@@ -86,7 +86,7 @@
 	mysqli_close($conexion);
 	?>
 	<script>
-		setTimeout(redirigir, 3000);
+		setTimeout(redirigir, 1000);
 	</script>
 
 </body>

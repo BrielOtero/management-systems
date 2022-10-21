@@ -352,7 +352,11 @@
 											print "<span class=\"text-secondary text-xs font-weight-bold\">" . $fila["account"] . "</span>";
 											print "</td>";
 											print "<td>";
-											print "<span class=\"text-secondary text-xs font-weight-bold\">" . $fila["money"] . "</span>";
+											if((int)$fila["money"]<0){
+												print "<span class=\"  text-xs font-weight-bold\" style=\"color:red;\">" . $fila["money"] . "</span>";
+											}else{
+												print "<span class=\" text-xs font-weight-bold\" style=\"color:green;\">" . $fila["money"] . "</span>";
+											}
 											print "</td>";
 											print "</tr>";
 										}
