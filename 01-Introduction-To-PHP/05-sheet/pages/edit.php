@@ -134,11 +134,11 @@
 									</div>
 
 									<div class="mb-3">
-										<input type="text" class="form-control" aria-label="Dni" value="<?php print $user["dni"] ?>" name="dni" aria-describedby="email-addon">
+										<input type="text" class="form-control" aria-label="Dni" value="<?php print $user["dni"] ?>" name="dni" aria-describedby="email-addon"minlength="9" maxlength="9">
 									</div>
 
 									<div class="mb-3">
-										<input type="tel" class="form-control" aria-label="Phone Number" value="<?php print $user["phone"] ?>" name="phone" aria-describedby="email-addon">
+										<input type="tel" class="form-control" aria-label="Phone Number" value="<?php print $user["phone"] ?>" name="phone" aria-describedby="email-addon"minlength="9" maxlength="9">
 									</div>
 
 
@@ -150,7 +150,7 @@
 										<input type="text" class="form-control" aria-label="Address" value="<?php print $user["address"] ?>" name="address" aria-describedby="email-addon">
 									</div>
 
-									<input type="hidden" class="form-control" aria-label="Account Number" value="<?php print $user["account"] ?>" name="account" aria-describedby="email-addon">
+									<input type="hidden" class="form-control" aria-label="Account Number" value="<?php print $user["account"] ?>" name="account" aria-describedby="email-addon" minlength="8" maxlength="8">
 
 									<div class="mb-3">
 										<input type="text" class="form-control" name="money" aria-label="Money" value="<?php print $user["money"] ?>" aria-describedby="email-addon">
