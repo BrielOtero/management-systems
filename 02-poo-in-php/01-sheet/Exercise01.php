@@ -10,10 +10,12 @@ class Exercise01
 	}
 
 	public function mostrar(){
+		for ($i=0; $i < count($this->enlaces); $i++) { 
+			print "<a href=".$this->enlaces[$i].">".$this->titulos[$i]."</a><br>";
+		}
 
 	}
 
 }
 ?>
 
-!

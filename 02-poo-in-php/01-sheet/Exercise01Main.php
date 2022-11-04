@@ -10,8 +10,9 @@
 <body>
 	<?php
 	$person = new Exercise01();
-	$person->cargarOpcion("https://www.colegiovivas.com/","colegio vivas");
-	$person->cargarOpcion("https://www.colegiovivas.com/","colegio vivas");
+	$person->cargarOpcion("https://www.colegiovivas.com/","Colegio vivas");
+	$person->cargarOpcion("https://github.com/SrMazas/","Git");
+	$person->mostrar();
 
 	?>
 	
