@@ -10,7 +10,6 @@ class Exercise02
 			case 'left':
 				print"<h1 style=\"text-align:left\">$text</h1>";
 				break;
-
 			case 'right':
 				print"<h1 style=\"text-align:right\">$text</h1>";
 				break;
