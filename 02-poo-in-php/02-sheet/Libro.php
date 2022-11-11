@@ -6,10 +6,14 @@ class Libro
 	private $titulo;
 	private $paginas;
 	private $refLibro;
+	private $prestado;
+	private $contieneCD;
 
 	public function __construct()
 	{
 		$this->refLibro = "";
+		$this->prestado=0;
+		$this->contieneCD=false;
 	}
 
 	public function setRefLibro($refLibro)
@@ -19,6 +23,15 @@ class Libro
 		} else {
 			print "Error with Reference Libro";
 		}
+	}
+
+	public function setPrestado(){
+
+		$this->prestado++;
+	}
+
+	public function getPrestado(){
+		return $this->prestado;
 	}
 
 	public function getAutor()
@@ -48,7 +61,7 @@ class Libro
 
 	public function printLibro()
 	{
-		print $this->titulo . " escrito por " . $this->autor . " con " . $this->paginas;
+		print $this->titulo . " escrito por " . $this->autor . " con " . $this->paginas." prestado ".$this->prestado;
 
 		if (strlen($this->refLibro) > 0) {
 			print $this->refLibro;
