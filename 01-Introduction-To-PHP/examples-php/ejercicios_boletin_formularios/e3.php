@@ -55,6 +55,8 @@ and open the template in the editor.
         $cine=$_POST['cine'];
         $libros=$_POST['libros'];
         $ciencia=$_POST['ciencia'];*/
+
+        
         
         echo "Los datos introducidos son:"."<br>"."nombre=".$nombre."<br>"."apellidos=".$apellidos."<br>"."email=".$email."<br>"."password=".$pass."<br>"."sexo=".$sexo;
         echo "<hr>";

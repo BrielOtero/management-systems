@@ -5,18 +5,39 @@ include_once 'BebidasAzucaradas.php';
 include_once 'AguaMineral.php';
 
 
-$b1 = new BebidasAzucaradas(10, false, 1, 3, 10, "Coca");
-$b2 = new BebidasAzucaradas(5, true, 2, 6, 15, "Fanta");
+$almacen1 = new Almacen(3, 2);
 
-$a1 = new AguaMineral("Del Monte", 3, 2, 10, "AquaBona");
+//Declaramos unas cuantas bebidas de prueba
+$agua1 = new AguaMineral("Galicia", 1.5, 3, "Sousas");
 
-$almacen = new Almacen();
-$almacen->agregarProducto($b1);
-$almacen->agregarProducto($b2);
-$almacen->agregarProducto($a1);
-$almacen->calcularPrecioTodasBebidas();
-$almacen->calcularPrecioTotalEstanteria(0);
-$almacen->calcularPrecioTotalMarcaBebida("Coca");
-$almacen->mostrarInformacion();
+$azucarada1 = new BebidasAzucaradas(5, true, 2, 10, "CocaCola");
+$azucarada2 = new BebidasAzucaradas(5, false, 2, 5, "CocaCola");
+
+
+$almacen1->agregarProducto($agua1);
+$almacen1->agregarProducto($agua1);
+$almacen1->agregarProducto($azucarada1);
+$almacen1->agregarProducto($azucarada2);
+$almacen1->agregarProducto($agua1);
+
+$almacen1->mostrarInformacion();
+
+
+
+print('El precio total es '.$almacen1->calcularPrecio(). '<br>');
+
+print ('El precio de la estantería 1 es '. $almacen1->calcularPrecioEstanteria(1).'<br>');
+
+print ('El precio de la marca Cocacola es '. $almacen1->calcularPrecioMarca('CocaCola').'<br>');
+
+print 'Elimino el producto con id=1';
+$almacen1->eliminarProducto('1');
+
+$almacen1->mostrarInformacion();
+
+$almacen1->agregarProducto($azucarada2);
+$almacen1->agregarProducto($agua1);
+$almacen1->agregarProducto($agua1);
+$almacen1->mostrarInformacion();
 
 ?>

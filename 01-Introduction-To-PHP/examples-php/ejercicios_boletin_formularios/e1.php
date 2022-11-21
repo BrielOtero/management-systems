@@ -27,6 +27,7 @@ switch ($envio) {
 }
 
 
+
 $precio_total = ($precio * $cantidad - $descuento) *(1+$iva) + ($precioenvio);
 print 'El precio total del envío es: ' . $precio_total;
 ?>

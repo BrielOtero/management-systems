@@ -15,19 +15,15 @@
 			case "hurones":
 
 				return 1;
-				break;
 			case "perros":
 
 				return 1.5;
-				break;
 			case "gatos":
 
 				return 1;
-				break;
 			case "loros":
 
 				return 2;
-				break;
 
 			default:
 				return "mascota no permitida";

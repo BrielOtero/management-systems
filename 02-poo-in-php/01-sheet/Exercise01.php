@@ -5,8 +5,8 @@ class Exercise01
 	private $titulos = array();
 
 	public function cargarOpcion($en, $tit){
-		$this->enlaces[]=$en;
-		$this->titulos[]=$tit;
+		$this->enlaces[]=array_push($en);
+		$this->titulos[]=array_push($tit);
 	}
 
 	public function mostrar(){

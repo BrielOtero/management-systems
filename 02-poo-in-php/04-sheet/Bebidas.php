@@ -1,34 +1,27 @@
 <?php
 abstract class Bebidas
 {
-    private $identificador;
-    private $cantidadLitros;
+    private static $idActual=0;
+    private $id;
+    private $litros;
     private $precio;
     private $marca;
 
-    public function __construct($identificador, $cantidadLitros,$precio,$marca)
+    public function __construct($litros,$precio,$marca)
     {
-        $this->setIdentificador($identificador);
-        $this->setCantidadLitros($cantidadLitros);
+        self::$idActual++;
+        $this->setId(self::$idActual);
+        $this->setLitros($litros);
         $this->setPrecio($precio);
         $this->setMarca($marca);
     }
 
     
-
-    /**
-     * Get the value of marca
-     */ 
     public function getMarca()
     {
         return $this->marca;
     }
 
-    /**
-     * Set the value of marca
-     *
-     * @return  self
-     */ 
     public function setMarca($marca)
     {
         $this->marca = $marca;
@@ -36,19 +29,11 @@ abstract class Bebidas
         return $this;
     }
 
-    /**
-     * Get the value of precio
-     */ 
     public function getPrecio()
     {
         return $this->precio;
     }
 
-    /**
-     * Set the value of precio
-     *
-     * @return  self
-     */ 
     public function setPrecio($precio)
     {
         $this->precio = $precio;
@@ -56,44 +41,28 @@ abstract class Bebidas
         return $this;
     }
 
-    /**
-     * Get the value of cantidadLitros
-     */ 
-    public function getCantidadLitros()
+    public function getLitros()
     {
-        return $this->cantidadLitros;
+        return $this->litros;
     }
 
-    /**
-     * Set the value of cantidadLitros
-     *
-     * @return  self
-     */ 
-    public function setCantidadLitros($cantidadLitros)
+    public function setLitros($litros)
     {
-        $this->cantidadLitros = $cantidadLitros;
-
-        return $this;
+        $this->litros = $litros;
     }
 
-    /**
-     * Get the value of identificador
-     */ 
-    public function getIdentificador()
+    public function getId()
     {
-        return $this->identificador;
+        return $this->id;
     }
 
-    /**
-     * Set the value of identificador
-     *
-     * @return  self
-     */ 
-    public function setIdentificador($identificador)
+    public function setId($id)
     {
-        $this->identificador = $identificador;
+        $this->id = $id;
+    }
 
-        return $this;
+    public function visualizar(){
+        print('id: '.self::getId().'<br> litros: '.self::getLitros().'<br> precio: '.self::getPrecio().'<br> marca: '.self::getMarca().'<br>');
     }
 }
 ?>

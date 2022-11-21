@@ -15,27 +15,21 @@
 			case $age < 8:
 
 				return 0;
-				break;
 			case $age >= 8 && $age <= 16:
 
 				return 5;
-				break;
 			case $age >= 17 && $age <= 25:
 
 				return 8;
-				break;
 			case $age >= 26 && $age <= 55:
 
 				return 10;
-				break;
 			case $age >= 56 && $age <= 65:
 
 				return 5;
-				break;
 			case $age > 66:
 
 				return 0;
-				break;
 		}
 	}
 	?>
