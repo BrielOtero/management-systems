@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CancionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,8 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [App\Http\Controllers\CancionController::class, 'index'])->name('inicio');
+Route::get('/', [CancionController::class, 'index'])->name('inicio');
+Route::get('/agregar', 'nueva_cancion')->name('formAgregar');
+Route::get('/agregar', [CancionController::class, 'agregarCancion'])->name('agregarCancion');
 
-Route::get('/mensaje', function () {
-    return "Welcome";
-});
+// Route::get('/mensaje', function () {
+// 	return "Welcome";
+// });

@@ -1,27 +1,35 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('titulo')</title>
     <style>
-        table{
+        table {
             border-collapse: collapse;
         }
-        table,th,td{
+
+        table,
+        th,
+        td {
             border: 1px solid black;
         }
-        th,td{
+
+        th,
+        td {
             padding: 5px;
         }
     </style>
 </head>
+
 <body>
     <a href="{{route('inicio')}}">Inicio</a>
     <a href="{{route('formAgregar')}}">Agregar</a>
     @yield('contenido')
     <hr>
     <p>CRUD creado con laravel</p>
-    
+
 </body>
+
 </html>

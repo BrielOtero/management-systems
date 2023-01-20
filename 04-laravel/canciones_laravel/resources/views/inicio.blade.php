@@ -19,13 +19,12 @@
         <tbody>
             @foreach ($canciones as $cancion)
                 <tr>
-                    <td>{{ $cancion->Nombre }}< /td>
-                    <td>{{ $cancion->Artista }}< /td>
-                    <td>{{ $cancion->Album }}< /td>
-                    <td>{{ $cancion->anio }}< /td>
-                    <td><a href="{{ route('editarCancion', ['id' => $cancion->id]) }}">Editar</a></td>
-                    <td><a href="{{ route('eliminarCancion', ['id' => $cancion->id]) }}">Eliminar</a></td>
+                    <td>{{ $cancion->Nombre }}</td>
+                    <td>{{ $cancion->Artista }}</td>
+                    <td>{{ $cancion->Album }}</td>
+                    <td>{{ $cancion->anio }}</td>
                 </tr>
+            @endforeach
         </tbody>
     </table>
 @endsection
