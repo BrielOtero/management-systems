@@ -19,12 +19,13 @@
         <tbody>
             @foreach ($canciones as $cancion)
                 <tr>
-                    <td>{{ $cancion->Nombre }}</td>
-                    <td>{{ $cancion->Artista }}</td>
-                    <td>{{ $cancion->Album }}</td>
+                    <td>{{ $cancion->nombre }}</td>
+                    <td>{{ $cancion->artista }}</td>
+                    <td>{{ $cancion->album }}</td>
                     <td>{{ $cancion->anio }}</td>
+                    <td><a href="{{route('editarCancion',['id'=>$cancion->id])}}">Actualizar<a/></td>
                 </tr>
             @endforeach
-        </tbody>
+        </tbody>	
     </table>
 @endsection

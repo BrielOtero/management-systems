@@ -20,8 +20,16 @@ class CancionController extends Controller
 		$cancion->artista = $peticion->artista;
 		$cancion->album = $peticion->album;
 		$cancion->anio = $peticion->anio;
+
 		$cancion->save();
+
 		session()->flash('mensaje', 'Cancion agregada correctamente');
 		return redirect()->route('inicio');
+	}
+
+	public function editarCancion($id){
+
+		$cancion = Cancion::find($id);
+		return view('editar_cancion', ['cancion' => $cancion]);
 	}
 }
