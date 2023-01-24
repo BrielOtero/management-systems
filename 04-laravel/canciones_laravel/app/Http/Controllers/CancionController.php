@@ -30,6 +30,28 @@ class CancionController extends Controller
 	public function editarCancion($id){
 
 		$cancion = Cancion::find($id);
+		session()->flash('mensaje', 'Cancion editada');
 		return view('editar_cancion', ['cancion' => $cancion]);
+	}
+
+	public function guardarCambiosCancion(Request $peticion)
+	{
+		$cancion = Cancion::find($peticion->idCancion);
+		$cancion->nombre = $peticion->nombre;
+		$cancion->artista = $peticion->artista;
+		$cancion->album = $peticion->album;
+		$cancion->anio = $peticion->anio;
+
+		$cancion->save();
+
+		session()->flash('mensaje', 'Cancion actualizada');
+		return redirect()->route('inicio');
+	}
+
+	public function eliminarCancion($id){
+		$cancion = Cancion::find($id);
+		$cancion->delete();
+		session()->flash('mensaje', 'Cancion eliminada');
+		return redirect()->route('inicio');
 	}
 }
